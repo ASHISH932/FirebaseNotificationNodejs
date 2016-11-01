@@ -13,10 +13,15 @@
   "author": "jane-doe",
   "license": "MIT",
   "dependencies": {
-    "https":"latest",
-    "express": "latest",
-	"node-restful":"latest"
+    "http":"latest",
+    "multiparty":"latest",
+    "util":"latest",
+    "fs":"latest"
   },
+
+"scripts": {
+  "start": "node index.js"
+},
   "engines": {
     "node": "4.1.1"
   }
