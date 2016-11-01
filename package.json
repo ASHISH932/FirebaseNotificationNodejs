@@ -1,11 +1,21 @@
 {
-	"name":"restful",
-	"main":"server.js",
-	"dependencies":{
-		"https":"latest",
-		"private":"true"
-	},
-	"engines": {
-    		"node": "4.1.1"
-  	}
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "https":"latest"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
 }
