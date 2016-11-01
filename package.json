@@ -1,0 +1,8 @@
+{
+	"name":"restful",
+	"main":"server.js",
+	"dependencies":{
+		"https":"latest",
+		"private":"true"
+	}
+}
